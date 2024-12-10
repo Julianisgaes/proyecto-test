@@ -18,8 +18,8 @@ class ReportesController extends \yii\web\Controller
         $sabor = \Yii::$app->request->get('sabor');
         $sql = "SELECT h.sabor, SUM(co.venta) AS venta
 	            FROM compras_helados ch
-		        INNER JOIN helados h ON ch.id_helados = h.id
-		        INNER JOIN compras co ON ch.id_compras = co.id
+		        RIGHT JOIN helados h ON ch.id_helados = h.id
+		        LEFT JOIN compras co ON ch.id_compras = co.id
 		        WHERE 1 = 1";
         $params = [];
         if ($fecha1) {
