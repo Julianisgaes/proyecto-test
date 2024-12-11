@@ -58,6 +58,9 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="mt-3">
                 <?= Html::submitButton('Generar reporte', ['class' => 'btn btn-success']) ?>
             </div>
+            <div class="mt-3">
+                <?= Html::resetInput('Reiniciar filtros', ['class' => 'btn btn-success']) ?>
+            </div>
         </div>
         <?php ActiveForm::end(); ?>
     </div>
