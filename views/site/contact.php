@@ -13,8 +13,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        Pronto habra algo.
+        Pronto habrá algo.
     </p>
 
-    <img src="/yii/web/media/under_construction.gif" alt="Bajo construcción">
+    <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif'; ?>" alt="Bajo construcción">
 </div>
