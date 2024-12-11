@@ -11,12 +11,14 @@ $this->params['breadcrumbs'][] = $this->title;
 
 <div class="card-group text-center">
     <div class=card>
+        <img src="<?= Yii::getAlias('@web' . '/media/reporte-1.jpg') ?>" class="card-img-top img-fluid px-3 py-3" alt="reporte 1">
         <div class="card-body">
             <h5>Ventas totales por sabor de helado</h5>
             <?= Html::a('Ir al reporte 1', ['reporte1'], ['class' => 'btn btn-success mt-2']) ?>
         </div>
     </div>
     <div class=card>
+        <img src="<?= Yii::getAlias('@web' . '/media/reporte-2.jpg') ?>" class="card-img-top img-fluid px-3 py-3" alt="reporte 1">
         <div class="card-body">
             <h5>Compras totales por cliente</h5>
             <?= Html::a('Ir al reporte 2', ['reporte2'], ['class' => 'btn btn-success mt-2']) ?>

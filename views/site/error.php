@@ -24,5 +24,5 @@ $this->title = $name;
         Contáctenos si cree que es un error del servidor.
     </p>
 
-    <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif'; ?>" alt="Bajo construcción">
+    <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif' ?>" alt="Bajo construcción">
 </div>

@@ -16,5 +16,5 @@ $this->params['breadcrumbs'][] = $this->title;
         Pronto habrá algo.
     </p>
 
-    <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif'; ?>" alt="Bajo construcción">
+    <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif' ?>" alt="Bajo construcción">
 </div>
