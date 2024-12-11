@@ -60,7 +60,7 @@ class ReportesController extends \yii\web\Controller
         $apellidos = \Yii::$app->request->get('apellidos');
         $sql = "SELECT cl.nombres, cl.apellidos, SUM(co.venta) AS compra
 	            FROM compras co
-		        INNER JOIN clientes cl ON co.id_clientes = cl.id
+		        RIGHT JOIN clientes cl ON co.id_clientes = cl.id
 			    WHERE 1 = 1";
         $params = [];
         if ($fecha1) {

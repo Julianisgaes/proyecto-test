@@ -9,7 +9,7 @@ $this->params['breadcrumbs'][] = ['label' => 'Reportes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <h1><?= Html::encode($this->title) ?></h1>
-<p>Nota: al utilizar los filtros de rango, debe asegurarse de llenar los campos de inicio y fin para su correcto funcionamiento.</p>
+<p class="alert alert-warning">Nota: al utilizar los filtros de rango, debe asegurarse de llenar los campos de inicio y fin para su correcto funcionamiento.</p>
 <div class="card mb-4">
     <div class="card-header">Filtros de búsqueda</div>
     <div class="card-body">
