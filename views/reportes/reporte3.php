@@ -4,7 +4,7 @@
 use yii\bootstrap5\Html;
 use yii\widgets\ActiveForm;
 
-$this->title = 'Insumos requeridos por helados';
+$this->title = 'Insumos requeridos por helado';
 $this->params['breadcrumbs'][] = ['label' => 'Reportes', 'url' => ['index']];
 $this->params['breadcrumbs'][] = $this->title;
 ?>
