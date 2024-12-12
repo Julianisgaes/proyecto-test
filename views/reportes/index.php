@@ -27,7 +27,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <div class=card>
         <img src="<?= Yii::getAlias('@web' . '/media/reporte-3.jpg') ?>" class="card-img-top img-fluid px-3 py-3" alt="reporte 3">
         <div class="card-body">
-            <h5>Insumos requeridos por helados</h5>
+            <h5>Insumos requeridos por helado</h5>
             <?= Html::a('Ir al reporte 3', ['reporte3'], ['class' => 'btn btn-success mt-2 mb-3']) ?>
         </div>
     </div>
