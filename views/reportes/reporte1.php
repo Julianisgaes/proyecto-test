@@ -50,7 +50,7 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
             <div class="mt-3">
                 <?= Html::submitButton('Generar reporte', ['class' => 'btn btn-success']) ?>
-                <?= Html::resetInput('Reiniciar filtros', ['class' => 'btn btn-success']) ?>
+                <?= Html::resetInput('Reiniciar filtros (antes de generar reporte)', ['class' => 'btn btn-success']) ?>
             </div>
         </div>
         <?php ActiveForm::end(); ?>
