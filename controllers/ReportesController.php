@@ -97,7 +97,27 @@ class ReportesController extends \yii\web\Controller
 
     public function actionReporte3()
     {
-        return $this->render('reporte3');
+        $sabor = \Yii::$app->request->get('sabor');
+        $insumo = \Yii::$app->request->get('insumo');
+        $sql = "SELECT h.sabor, i.nombre, i.stock
+	            FROM helados_insumos hi
+		        INNER JOIN helados h ON hi.id_helados = h.id
+		        INNER JOIN insumos i ON hi.id_insumos = i.id
+                WHERE 1 = 1";
+        $params = [];
+        if ($sabor) {
+            $sql .= " AND h.sabor LIKE :sabor";
+            $params[':sabor'] = "%$sabor%";
+        }
+        if ($insumo) {
+            $sql .= " AND i.nombre LIKE :insumo";
+            $params[':insumo'] = "%$insumo%";
+        }
+        $sql .= " ORDER BY i.stock ASC";
+        $insumos_helados = \Yii::$app->db->createCommand($sql, $params)->queryAll();
+        return $this->render('reporte3', [
+            'insumos_helados' => $insumos_helados
+        ]);
     }
 
 }
