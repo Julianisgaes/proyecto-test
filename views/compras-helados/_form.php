@@ -22,7 +22,7 @@ use app\models\Helados;
 
         echo $form->field($model, 'id_compras')->dropDownList(
             $fecha_nombres,
-            ['prompt' => 'Seleccione la fecha de compra y el/los nombre(s) y apellido(s) del cliente que compró']
+            ['prompt' => 'Seleccione la fecha de compra y el/los nombre(s) y apellido(s) del cliente']
         )->label('Fecha, nombre(s) y apellido(s)')
 
     ?>
