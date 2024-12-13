@@ -12,9 +12,24 @@ $this->params['breadcrumbs'][] = $this->title;
 <div class="site-contact">
     <h1><?= Html::encode($this->title) ?></h1>
 
+<br/>
+
     <p>
-        Pronto habrá algo.
+        <h4> En caso de duda por favor de contactarnos <br/>
+        Te contactaremos lo antes posible</h4>
+        <br/>
+        <br/>
+        <div class="jumbotron text-center bg-transparent">
+        <b><FONT SIZE=7> Nuestras redes  </FONT></b>
+        </div>
     </p>
+    <br/>
+    <br/><img src="" alt="Instagram"><br/>
+    <p> La heladería <p>
+    <br/><img src="" alt="Facebook"><br/>
+    <p> La heladería <p>
+    <br/><img src="" alt="Whatsapp"><br/>
+    <p> (555) 987-6543 <p>
 
     <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif' ?>" alt="Bajo construcción">
 </div>
