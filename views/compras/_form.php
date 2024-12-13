@@ -22,10 +22,18 @@ use app\models\Clientes;
         'placeholder' => 'Proporcione la cantidad de venta'
     ]) ?>
 
-    <?= $form->field($model, 'id_clientes')->dropDownList(
-        ArrayHelper::map(Clientes::find()->all(), 'id', 'nombres'),
-        ['prompt' => 'Seleccione el/los nombre(s) del cliente']
-    )->label('Nombre(s)') ?>
+    <?php
+
+        $clientes = Yii::$app->db->createCommand("SELECT id, CONCAT(nombres, ' ', apellidos) AS nombres_apellidos FROM clientes")->queryAll();
+
+        $clientes = ArrayHelper::map($clientes, 'id', 'nombres_apellidos');
+
+        echo $form->field($model, 'id_clientes')->dropDownList(
+            $clientes,
+            ['prompt' => 'Seleccione el/los nombre(s) del cliente']
+        )->label('Nombre(s)')
+
+    ?>
 
     <div class="form-group mt-2">
             <?= Html::submitButton('Guardar', ['class' => 'btn btn-success']) ?>
