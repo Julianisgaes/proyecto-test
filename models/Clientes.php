@@ -8,8 +8,8 @@ use Yii;
  * This is the model class for table "clientes".
  *
  * @property int $id
- * @property string|null $apellidos
- * @property string|null $nombres
+ * @property string $apellidos
+ * @property string $nombres
  *
  * @property Compras[] $compras
  */
@@ -29,6 +29,7 @@ class Clientes extends \yii\db\ActiveRecord
     public function rules()
     {
         return [
+            [['apellidos', 'nombres'], 'required', 'message' => 'Campo requerido.'],
             [['apellidos', 'nombres'], 'string', 'max' => 30],
         ];
     }
