@@ -11,14 +11,14 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        La heladeria es una empresa que nos apasiona crear y vender helados, no solo vendemos helados tambien creamos
-        momentos en familia, amigos. Nuestra empresa se ha dedicado a la elaboracion de helados artesanales de la mas
-        alta calidad.
-    </p><br/>
+        La heladería es una empresa en la que nos apasiona crear y vender helados. No solo vendemos helados, 
+        también creamos momentos en familia y con amigos. Nuestra empresa se ha dedicado a la elaboración de helados 
+        artesanales de la más alta calidad.
+    </p>
     <p>
-        Cada sabor que ofrecemos se los mejores sabores que una heladeria podrai ofrecer. Tenemos los sabores calsicos
-        asta sabores creados por nosotros
+        Cada sabor que ofrecemos son de los mejores que una heladería podría ofrecer. 
+        Tenemos los sabores clásicos hasta sabores creados por nosotros.
     </p>
 
-    <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif' ?>" alt="Bajo construcción">
+    <img src="<?= Yii::getAlias('@web') . '/media/acerca.jpg' ?>" alt="Helados" class="img-fluid img-thumbnail">
 </div>
