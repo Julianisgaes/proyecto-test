@@ -8,6 +8,9 @@ $this->title = 'La heladería';
 
     <div class="jumbotron text-center bg-transparent">
         <h1 class="display-4">¡Bienvenido!</h1>
+<br/>
+        <div class="jumbotron text-center bg-transparent">
+        <b><FONT SIZE=7>Creadores</h1></b></FONT>
 
         <br/>
 <div class="container">
@@ -15,24 +18,53 @@ $this->title = 'La heladería';
     <div class="col-6">
         <FONT SIZE=6><p align="lefth">Julian Israel</p></FONT>
         <img
-        src="https://i.pinimg.com/736x/db/56/31/db56314c67691d80c63e6ecfe4ad2b39.jpg"
+        src="https://static.wikia.nocookie.net/fa8816a5-33f5-4e32-987a-d3d1e1e8f147"
         width="350px"
         height="350px"
         border="10px"
         align="left"
         >
-        <p align="center">
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p align="lefth">Ingresa cualquier texto</p></FONT></p>
         </p>
     </div>
     <div class="col-6">
         <FONT SIZE=6><p align="Right">Alfredo Lopez</p></FONT>
         <img
-        src="https://i.pinimg.com/736x/e2/1a/13/e21a1323d9b4d0e5d4f0e277b1a051ae.jpg"
+        src="https://stickerly.pstatic.net/sticker_pack/xO3zSKpBX8TqGJtXWsgzg/TPI8JR/16/200a8b20-a11d-4cf9-8cc7-6f12681fa5cb.png"
         width="350px"
         height="350px"
         border="10px"
         align="right"
         >
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+        <p align="Right">Alfredo Lopez</p></FONT></p>
     </div>
     </div>
 
