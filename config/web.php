@@ -5,7 +5,7 @@ $db = require __DIR__ . '/db.php';
 
 $config = [
     'id' => 'basic',
-    'name' => 'Heladería',
+    'name' => 'La heladería',
     'language' => 'es-MX',
     'timeZone' => 'America/Hermosillo',
     'basePath' => dirname(__DIR__),

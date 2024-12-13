@@ -9,7 +9,7 @@ $this->title = 'Heladería';
     <div class="jumbotron text-center bg-transparent">
         <h1 class="display-4">¡Bienvenido!</h1>
 
-        <p class="lead">Desde aquí puede modificar la base de datos de la heladería.</p>
+        <p class="lead">Desde aquí puede modificar la base de datos de La heladería.</p>
         <p class="lead">Tenga cuidado, puede haber errores.</p>
 
         <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif' ?>" alt="Bajo construcción">
