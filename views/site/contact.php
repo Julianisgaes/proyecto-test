@@ -25,8 +25,11 @@ $this->params['breadcrumbs'][] = $this->title;
     </p>
     <br/>
     <br/><img src="" alt="Instagram"><br/>
+    <p> La heladería <p>
     <br/><img src="" alt="Facebook"><br/>
+    <p> La heladería <p>
     <br/><img src="" alt="Whatsapp"><br/>
-    
+    <p> (555) 987-6543 <p>
+
     <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif' ?>" alt="Bajo construcción">
 </div>
