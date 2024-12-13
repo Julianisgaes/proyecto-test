@@ -10,7 +10,7 @@ $this->title = 'La heladería';
         <h1 class="display-4">¡Bienvenido!</h1>
 <br/>
         <div class="jumbotron text-center bg-transparent">
-        <b><FONT SIZE=7>Creadores</h1></b></FONT>
+        <b><FONT SIZE=7>Creadores</FONT></b>
 
         <br/>
 <div class="container">
