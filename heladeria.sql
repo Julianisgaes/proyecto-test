@@ -5,8 +5,8 @@ USE heladeria;
 # crear la tabla clientes
 CREATE TABLE clientes(
 	id INT NOT NULL AUTO_INCREMENT,
-	apellidos VARCHAR(30) NULL,
-	nombres VARCHAR(30) NULL,
+	apellidos VARCHAR(30) NOT NULL,
+	nombres VARCHAR(30) NOT NULL,
 	PRIMARY KEY(id)
 );
 # crear la tabla compras
@@ -59,7 +59,7 @@ CREATE TABLE helados_insumos(
 INSERT INTO clientes
 	(id, apellidos, nombres)
 VALUES
-	(1, NULL, NULL),
+	(1, 'Morales Romero', 'Miguel'),
 	(2, 'Pérez Sánchez', 'Miguel'),
 	(3, 'López Romero', 'Luis Fernando'),
 	(4, 'Herrera Vargas', 'Sofía Elena'),
@@ -101,15 +101,15 @@ VALUES
 INSERT INTO compras
 	(id, fecha, venta, id_clientes)
 VALUES
-	(1, '2024-06-04 09:30:20', 3, 1),
-	(2, '2024-06-04 10:21:12', 5, 1),
-	(3, '2024-06-05 13:01:01', 1, 2),
-	(4, '2024-06-05 16:55:45', 7, 3),
-	(5, '2024-06-05 18:20:34', 6, 1),
-	(6, '2024-06-06 08:56:23', 3, 7),
-	(7, '2024-06-07 13:08:29', 2, 3),
-	(8, '2024-06-07 15:06:12', 10, 1),
-	(9, '2024-06-08 10:30:03', 15, 8),
+	(1, '2024-06-04 09:30:00', 3, 1),
+	(2, '2024-06-04 10:21:00', 5, 1),
+	(3, '2024-06-05 13:01:00', 1, 2),
+	(4, '2024-06-05 16:55:00', 7, 3),
+	(5, '2024-06-05 18:20:00', 6, 1),
+	(6, '2024-06-06 08:56:00', 3, 7),
+	(7, '2024-06-07 13:08:00', 2, 3),
+	(8, '2024-06-07 15:06:00', 10, 1),
+	(9, '2024-06-08 10:30:00', 15, 8),
 	(10, '2024-06-08 11:02:00', 1, 1);
 # insertar datos en la tabla compras_helados
 INSERT INTO compras_helados
