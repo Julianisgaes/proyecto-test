@@ -15,8 +15,8 @@ $this->params['breadcrumbs'][] = $this->title;
 <br/>
 
     <p>
-        <h4> En caso de duda por favor de contactarnos </h4>
-        Te contactaremos lo antes posible
+        <h4> En caso de duda por favor de contactarnos <br/>
+        Te contactaremos lo antes posible</h4>
         <br/>
         <br/>
         <div class="jumbotron text-center bg-transparent">
