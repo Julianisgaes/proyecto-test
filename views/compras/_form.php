@@ -12,7 +12,7 @@ use app\models\Clientes;
 
 <div class="compras-form">
 
-    <p class="alert alert-warning">Al finalizar este formulario, no se olvide de crear un registro relacionado a este en la página "Base de datos/Compras Helados".</p>
+    <p class="alert alert-warning">Al finalizar este formulario, no se olvide de crear un registro relacionado a este en la página <?= Html::a('"Base de datos/Compras Helados"', ['compras-helados/index'], ['target' => '_blank']) ?>.</p>
 
     <?php $form = ActiveForm::begin(); ?>
 
