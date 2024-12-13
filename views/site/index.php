@@ -26,7 +26,7 @@ $this->title = 'La heladería';
                 <img src="<?= Yii::getAlias('@web') . '/media/alfredo.jpg' ?>" class="card-img-top px-3 py-3" alt="julián">
                 <div class="card-body mb-3">
                     <h5 class="card-title">Alfredo López</h5>
-                    <p class="card-text">Agrega algo</p>
+                    <p class="card-text"> La vida es dura. Después de todo, te mata </p>
                 </div>
             </div>
         </div>
