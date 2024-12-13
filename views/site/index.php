@@ -6,9 +6,9 @@ $this->title = 'La heladería';
 ?>
 <div class="site-index">
 
-    <div class="jumbotron text-center bg-transparent mb-3">
+    <div class="jumbotron text-center bg-transparent mb-4">
         <h1 class="display-4">¡Bienvenido!</h1>
-        <h2>Creadores</h2>
+        <h2 class="mt-3">Creadores</h2>
     </div>
 
     <div class="row g-5 text-center">
