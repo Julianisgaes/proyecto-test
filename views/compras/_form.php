@@ -30,8 +30,8 @@ use app\models\Clientes;
 
         echo $form->field($model, 'id_clientes')->dropDownList(
             $clientes,
-            ['prompt' => 'Seleccione el/los nombre(s) del cliente']
-        )->label('Nombre(s)')
+            ['prompt' => 'Seleccione el/los nombre(s) y apellido(s) del cliente']
+        )->label('Nombre(s) y apellido(s)')
 
     ?>
 
