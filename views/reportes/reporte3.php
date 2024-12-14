@@ -28,7 +28,7 @@ $this->params['breadcrumbs'][] = $this->title;
           'placeholder' => 'Proporcione el nombre de insumo'
         ]) ?>
       </div>
-      <div class="col-md-4 d-flex align-items-end">
+      <div class="col-md-4 d-flex align-items-end mt-3">
         <?= Html::submitButton('Generar reporte', ['class' => 'btn btn-success']) ?>
       </div>
       <div class="col-md-4 mt-3">

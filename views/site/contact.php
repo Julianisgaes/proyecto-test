@@ -10,26 +10,33 @@ $this->title = 'Contacto';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="site-contact">
-    <h1><?= Html::encode($this->title) ?></h1>
 
-<br/>
+    <div class="jumbotron bg-transparent mb-3">
+        <h1><?= Html::encode($this->title) ?></h1>
+        <h2 class="mt-3">Nuestras redes sociales:</h2>
+    </div>
 
-    <p>
-        <h4> En caso de duda por favor de contactarnos <br/>
-        Te contactaremos lo antes posible</h4>
-        <br/>
-        <br/>
-        <div class="jumbotron text-center bg-transparent">
-        <b><FONT SIZE=7> Nuestras redes  </FONT></b>
+    <a href="https://youtu.be/dQw4w9WgXcQ?feature=shared" target="_blank">
+        <div class="card-group text-center">
+            <div class="card">
+                <img src="<?= Yii::getAlias('@web') . '/media/instagram.jpg' ?>" class="card-img-top px-3 py-3" alt="instagram">
+                <div class="card-body mb-2">
+                    <h5>Instagram</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="<?= Yii::getAlias('@web') . '/media/facebook.jpg' ?>" class="card-img-top px-3 py-3" alt="facebook">
+                <div class="card-body mb-2">
+                    <h5>Facebook</h5>
+                </div>
+            </div>
+            <div class="card">
+                <img src="<?= Yii::getAlias('@web') . '/media/whatsapp.jpg' ?>" class="card-img-top px-3 py-3" alt="whatsapp">
+                <div class="card-body mb-2">
+                    <h5>Whatsapp</h5>
+                </div>
+            </div>
         </div>
-    </p>
-    <br/>
-    <br/><img src="" alt="Instagram"><br/>
-    <p> La heladería <p>
-    <br/><img src="" alt="Facebook"><br/>
-    <p> La heladería <p>
-    <br/><img src="" alt="Whatsapp"><br/>
-    <p> (555) 987-6543 <p>
+    </a>
 
-    <img src="<?= Yii::getAlias('@web') . '/media/under_construction.gif' ?>" alt="Bajo construcción">
 </div>
